@@ -1,0 +1,42 @@
+﻿@model EcoTestDalPattern.Models.QuestionModel
+@section Scripts
+{
+    <script src='@Url.Content("~/Scripts/test.js")'></script>
+}
+
+
+
+
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="jumbotron" id="test-div">
+    <h2>Запитання @ViewData.Model.QuestionId з 10</h2>
+
+    <h3>
+        @Html.ViewData.Model.QuestionText
+    </h3>
+
+    <label class="btn btn-default btn-lg">
+        <input type="radio" name="answer" />
+        @Html.ViewData.Model.FirstAnswer
+    </label><br />
+
+    <label class="btn btn-default btn-lg">
+        <input type="radio" name="answer" />
+        @Html.ViewData.Model.SecondAnswer
+    </label><br />
+
+    <label class="btn btn-default btn-lg">
+        <input type="radio" name="answer" />
+        @Html.ViewData.Model.ThirdAnswer
+    </label><br />
+    <a class="btn btn-primary btn-lg" id="nextButton" onclick="sendResult()">Далі</a>
+</div>
+
+
+
+
+
+

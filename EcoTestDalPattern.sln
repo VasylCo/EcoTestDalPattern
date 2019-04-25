@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTestDalPattern", "EcoTestDalPattern\EcoTestDalPattern.csproj", "{9462263B-FB7D-462C-B557-DA1CF38AAC8C}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EcoTestDB", "EcoTestDB\EcoTestDB.sqlproj", "{79295E96-5122-445B-915D-5DCBFEE86303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{04A61403-A83B-48EB-AE65-5FA537D620FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{9462263B-FB7D-462C-B557-DA1CF38AAC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9462263B-FB7D-462C-B557-DA1CF38AAC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9462263B-FB7D-462C-B557-DA1CF38AAC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79295E96-5122-445B-915D-5DCBFEE86303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79295E96-5122-445B-915D-5DCBFEE86303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79295E96-5122-445B-915D-5DCBFEE86303}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{79295E96-5122-445B-915D-5DCBFEE86303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79295E96-5122-445B-915D-5DCBFEE86303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79295E96-5122-445B-915D-5DCBFEE86303}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{04A61403-A83B-48EB-AE65-5FA537D620FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A61403-A83B-48EB-AE65-5FA537D620FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A61403-A83B-48EB-AE65-5FA537D620FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A61403-A83B-48EB-AE65-5FA537D620FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
